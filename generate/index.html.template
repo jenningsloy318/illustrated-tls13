@@ -368,10 +368,11 @@ pub:
             methods: five using elliptic curves (EC) and five using finite
             fields.
             <br/><br/>
-            This extension was formerly called "Supported Curves" and in
-            earlier versions of TLS only indicated elliptic curves. It
-            was renamed and repurposed in TLS 1.3 to include indicating
-            support for non-EC key exchange.
+            This TLS extension was formerly called "Supported Curves"
+            and originally indicated which elliptic curves were
+            supported for key exchange.  It was renamed and repurposed
+            for TLS 1.3 to allow support for non-EC key exchange
+            mechanisms of the future.
             <br/><br/>
             This list is presented in descending order
             of the client's preference.
